@@ -31,3 +31,34 @@ header{
     color: black;
 }
 
+.info{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info img{
+    width: 100%;
+}
+
+.info p{
+    text-align: center;
+}
+
+.tipos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.sub-tipo{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sub-tipo img{
+    width: 100%;
+}
