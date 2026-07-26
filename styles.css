@@ -5,8 +5,11 @@
     font-family:'Times New Roman', Times, serif;
 }
 
-header{
+body{
     background-color: rgb(241, 241, 241);
+}
+
+header{
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -31,17 +34,27 @@ header{
     color: black;
 }
 
-.info{
-    background-color: rgb(241, 241, 241);
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 .info img{
     width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .info p{
     text-align: center;
     justify-content: center;
+}
+
+.obras-grid{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.cuadros{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
