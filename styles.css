@@ -75,3 +75,51 @@ header{
     height: 600px;
     object-fit: cover;
 }
+
+.cuadros h3{
+    padding: 1.5rem;
+}
+
+.cuadros p{
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+.cuadros button{
+    padding: 0.5rem;
+    background-color: dimgrey;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.cuadros a{
+    text-decoration: none;
+    color: black;
+}
+
+.esculturas h3{
+    padding: 1.5rem;
+}
+
+.esculturas p{
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+.esculturas button{
+    padding: 0.5rem;
+    background-color: dimgrey;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.esculturas a{
+    text-decoration: none;
+    color: black;
+}
