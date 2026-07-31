@@ -191,3 +191,51 @@ footer {
     height: 400px;
     object-fit: cover;
 }
+
+.formulario-contacto {
+    background-color: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.grupo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.grupo-form label {
+    font-weight: bold;
+}
+
+.grupo-form input,
+.grupo-form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    font-style: normal;
+}
+
+.boton-enviar {
+    padding: 1rem;
+    background-color: dimgrey;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.boton-enviar:hover {
+    background-color: black;
+}

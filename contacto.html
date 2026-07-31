@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>La Galería</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">La Galería</div>
+        <div class="lista">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./cuadros.html">Cuadros</a></li>
+                <li><a href="./esculturas.html">Esculturas</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="form">
+        <form class="formulario-contacto" action="#" method="POST">
+            <div class="grupo-form">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellidos" required>
+            </div>
+            <div class="grupo-form">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="grupo-form">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="passwd" name="password" placeholder="Contraseña">
+            </div>
+            <div class="grupo-form">
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu consulta..." required></textarea>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2026 La Galería. Proyecto creado por Navidad00.</p>
+    </footer>
+    </body>
+</html>
