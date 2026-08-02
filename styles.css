@@ -239,3 +239,14 @@ footer {
 .boton-enviar:hover {
     background-color: black;
 }
+
+@media screen and (max-width: 480px){
+    header{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    header ul{
+        padding-top: 1rem;
+    }
+}
